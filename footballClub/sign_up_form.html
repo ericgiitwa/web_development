@@ -6,15 +6,50 @@
  <!-- our home page logo -->
 <img src = "Images\football_club_image.avif" height = 150>
 <h1>Welcome to our sign up page </h1>
-<p>If you would like to join our prestegious club just fill in your details in the form below </p>
+<p>If you would like to join our prestigious club just fill in your details in the form below </p>
 
 <form>
-<label for="Fname"> First name:</label>
-<input type="text" id="Fname" name="Fname">
+ <!-- NAmes -->
+<label for="Fname" > First name:</label>
+<input type="text" id="Fname" name="Fname" placeholder="john" required>
 <label for="Lname">Last Name:</label>
-<input type="text" id="Lname" name="Lname"><br>
+<input type="text" id="Lname" name="Lname" placeholder="doe" required><br>
+
+<!-- Communications -->
+<br><label for="email">Email:</label>
+<input type="text" id="name name=email" required><br>
+<br><label for="phoneNo" >Phone Number:</label>
+<input type="text" id="phoneNo name=phoneNo" placeholder="+254...." minlenght="13"><br>
+
+<!-- AGE VERIFICATION -->
 <br><label for="Age">Are you above the age of 18?</label><br>
 <input type="checkbox" id="Age" name="Age" value="AgeConfirm"><br>
+<label>Input your date of birth</label>
+<br><input type="date"><br>
+
+<!-- gender selection -->
+<br>select your gender:<br>
+Male: <input type="radio" name="gender" value="Male">
+Female: <input type="radio" name="gender" value="Female"><br>
+
+
+<!-- POSITION SELECTION -->
+<br><label for="Lname">Which position are you applying for?</label><br>
+<input type="checkbox" value="Goalkeeper" name="position">Goalkeeper<br>
+<input type="checkbox" value="Defender" name="position">Defender<br>
+<input type="checkbox" value="Midfielder" name="position">Midfielder<br>
+<input type="checkbox" value="Sticker" name="position">Sticker<br>
+
+<!-- NATIONALITY SELECTION -->
+<br><label>Select your nationality</label>
+<select name="nationality" required>
+<option value="kenyan">Kenya</option>
+<option>Uganda</option>
+<option>Rwanda</option>
+
+</select>
+
+
 <p>write a composition on why you would like to join our team</p>
 <input type="text" id="statement" name="statement"><br>
 
