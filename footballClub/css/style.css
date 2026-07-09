@@ -1,10 +1,26 @@
+.HomeHeader {
+  background-color: rgba(153, 4, 4, 0.705);
+  border: solid;
+  display: flex;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(170, 22, 59);
 }
 
 a {
-  color: #1d1e1fbd;
+  padding: 5px;
+  color: #000000fb;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: blue;
+  font-size: large;
+}
+a:visited {
+  color: purple;
 }
 
 section {
@@ -12,17 +28,17 @@ section {
   padding: 50px;
 }
 
-.nav a{
+.nav a {
   border: 20px;
   font-size: 200px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: aqua;
 }
 
-.nav{
+.nav {
   border: 20px;
   font-size: 200px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: aqua;
 }
 
@@ -33,21 +49,20 @@ section {
   background-color: rgba(226, 43, 52, 0.514);
 }
 
-.home{
+.home {
   font-size: 30px;
-  
 }
 
-.About_us{
+.About_us {
   background-color: rgba(226, 43, 52, 0.514);
 }
 
-.our_Achievements{
-   background-color: rgba(226, 43, 52, 0.514);
+.our_Achievements {
+  background-color: rgba(226, 43, 52, 0.514);
 }
 
-.balls{
-     background-color: rgba(43, 183, 226, 0.514);
-     padding: 25px;
-     border:15px solid;
+.balls {
+  background-color: rgba(43, 183, 226, 0.514);
+  padding: 25px;
+  border: 15px solid;
 }

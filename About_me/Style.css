@@ -1,0 +1,49 @@
+    <style>
+      #head{
+        border: 3px solid;
+        padding: 5px;
+        border-color: black;
+        background-color: rgb(243, 190, 126);        
+      }
+
+      .headerphoto{
+        margin: auto;
+        width: 28%; /* Set a specific width */
+        padding: 10px;
+      }
+
+      .nav_bar{text-align: center;        word-spacing: 5px;
+      border: solid, 3px;   
+      background-color: rgb(129, 90, 167);
+      padding:5px;
+    
+    }
+
+    a{color: black}
+    a:visited{color: rgb(255, 174, 0)}
+    a:hover{color: purple;
+    font-size: 20px
+  }
+      body {
+        font-family:
+          "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+          background-color: rgb(59, 169, 219);          
+      }
+      [id]{ border: 3px solid;
+      padding: 5px;}
+      .About_me, .music, .coding {        
+        border-color: black;
+        background-color: bisque;
+      }
+      .My_interests, .Baking, .video_games{
+        border-color: black;
+        background-color: aliceblue;
+      }
+
+      footer {
+        border: 3px solid;
+        padding: 5px;
+        border-color: black;
+        background-color: rgb(149, 185, 185)
+      }
+    </style>
